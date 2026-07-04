@@ -1,20 +1,36 @@
-import React, { useState } from 'react';
+import React, { useState , useEffect } from 'react';
+import darshini1 from "../assets/images/darshini1.jpg";
+import shree2 from "../assets/images/shree2.jpg";
+import mk3 from "../assets/images/mk3.jpg";
 import { Link, useNavigate } from 'react-router-dom';
 import { ArrowRight, Star, Heart, Shield, Award, Sparkles, MessageSquare, Compass, Send } from 'lucide-react';
 import { PRODUCTS, REVIEWS } from '../data/products';
 import { ProductCard } from '../components/ProductCard';
 import { motion } from 'motion/react';
-
+import showcaseImg from "../assets/images/jewellery_showcase_1783161546150.jpg";
 export const Home: React.FC = () => {
   const navigate = useNavigate();
   const [newsletterEmail, setNewsletterEmail] = useState('');
   const [newsletterSubscribed, setNewsletterSubscribed] = useState(false);
+// 👉 showcase images list
+const showcaseImages = [
+  darshini1, // உன் import image
+  shree2,
+  mk3
+];
 
+const [currentIndex, setCurrentIndex] = useState(0);
   // Filter products for sections
   const featuredProducts = PRODUCTS.filter((p) => p.isFeatured).slice(0, 3);
   const bestSellers = PRODUCTS.filter((p) => p.isBestSeller).slice(0, 4);
   const newArrivals = PRODUCTS.filter((p) => p.isNewArrival).slice(0, 4);
+useEffect(() => {
+  const interval = setInterval(() => {
+    setCurrentIndex((prev) => (prev + 1) % showcaseImages.length);
+  }, 3000);
 
+  return () => clearInterval(interval);
+}, [showcaseImages.length]);
   const categories = [
     {
       name: 'Necklaces',
@@ -161,11 +177,13 @@ export const Home: React.FC = () => {
                 }}
               >
                 {/* Showcase Image with Radial Gradient Mask for Seamless Blending */}
-                <img
-                  src="/src/assets/images/jewellery_showcase_1783161546150.jpg"
+                
+                <motion.img
+                  key={currentIndex}
+                  src={showcaseImages[currentIndex]}
                   alt="Premium Luxury Jewellery Showcase"
-                  referrerPolicy="no-referrer"
                   className="w-full h-full object-cover rounded-2xl select-none"
+ 
                   style={{
                     maskImage: 'radial-gradient(circle at center, black 65%, transparent 100%)',
                     WebkitMaskImage: 'radial-gradient(circle at center, black 65%, transparent 100%)'
