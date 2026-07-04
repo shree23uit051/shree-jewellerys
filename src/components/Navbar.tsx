@@ -179,8 +179,8 @@ export const Navbar: React.FC = () => {
             <div className="flex justify-between items-center mb-8">
               <div className="flex items-center gap-2.5">
                 <img
-                  src="/src/assets/images/shree_luxury_logo_1783162317492.jpg"
-                  alt="Shree Jewellery Logo"
+                  src={logo}
+                  alt="Jewellery Logo"
                   referrerPolicy="no-referrer"
                   className="w-8 h-8 object-cover rounded-full border border-[#D4AF37]/30"
                 />
