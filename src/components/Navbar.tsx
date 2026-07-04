@@ -3,7 +3,7 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { Search, Heart, ShoppingBag, User, Menu, X, ArrowRight, ShieldCheck, Award, LogOut } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { motion, AnimatePresence } from 'motion/react';
-
+import logo from  "../assets/images/shree_luxury_logo_1783162317492.jpg";
 export const Navbar: React.FC = () => {
   const { getCartCount, wishlist, searchQuery, setSearchQuery } = useCart();
   const navigate = useNavigate();
@@ -49,8 +49,8 @@ export const Navbar: React.FC = () => {
           <div className="flex-1 md:flex-initial flex justify-center md:justify-start">
             <Link to="/" className="flex items-center gap-3 group">
               <img
-                src="/src/assets/images/shree_luxury_logo_1783162317492.jpg"
-                alt="Shree Jewellery Logo"
+               src={logo}
+                alt="Jewellerys Logo"
                 referrerPolicy="no-referrer"
                 className="w-10 h-10 sm:w-11 sm:h-11 object-cover rounded-full border border-[#D4AF37]/30 group-hover:border-[#D4AF37] transition-all duration-300 shadow-[0_0_10px_rgba(212,175,55,0.15)]"
               />
