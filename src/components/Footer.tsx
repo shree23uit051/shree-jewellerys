@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Instagram, Facebook, Twitter, Mail, Phone, MapPin, ShieldAlert, Award, Gem, ArrowUpRight } from 'lucide-react';
 import logo from  "../assets/images/shree_luxury_logo_1783162317492.jpg";
-<img src={logo} alt="Shree Jewellerys Logo"/>
+<img src={logo} alt="Jewellerys Logo"/>
 export const Footer: React.FC = () => {
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
             <Link to="/" className="flex items-center gap-3 group">
               <img
                 src="/src/assets/images/shree_luxury_logo_1783162317492.jpg"
-                alt="Shree Jewellerys Logo"
+                alt="Jewellerys Logo"
                 referrerPolicy="no-referrer"
                 className="w-10 h-10 object-cover rounded-full border border-[#D4AF37]/30 group-hover:border-[#D4AF37] transition-all duration-300"
               />
