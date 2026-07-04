@@ -1,0 +1,6 @@
+{
+  "name": "SHREE JEWELLERY",
+  "description": "A premium luxury jewellery e-commerce platform offering exquisite gold, diamond, and bridal collections with an elegant shopping experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
