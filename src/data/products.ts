@@ -186,8 +186,8 @@ export const PRODUCTS: Product[] = [
     images: [
       'https://i.pinimg.com/1200x/1d/69/e4/1d69e4c4e0ed8321194d5c3ed44a6f34.jpg',
       'https://i.pinimg.com/736x/f6/01/8c/f6018c47afc4f8f4424d1886fa9c90fe.jpg',
-      'https://i.pinimg.com/736x/f9/32/78/f93278c5214a7287097c3326b44f63e7.jpg',
-      'https://i.pinimg.com/736x/c3/98/98/c39898d2f0be778f85a5d627b024853a.jpg'
+      'https://i.pinimg.com/736x/f9/32/78/f93278c5214a7287097c3326b44f63e7.jpg'
+      
     ],
     specifications: {
       metal: '18K White Gold',
