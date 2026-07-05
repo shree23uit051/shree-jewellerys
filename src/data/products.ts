@@ -197,54 +197,7 @@ export const PRODUCTS: Product[] = [
       certification: 'SGL Certified'
     }
   },
-  {
-    id: 'ring-09',
-    name: 'Hexagon Emerald ring 2 in 1',
-    category: 'Rings',
-    price: 245000,
-    rating: 4.8,
-    reviewsCount: 14,
-    description: 'A continuous, sparkling ribbon of pavé-set diamonds set in beautiful 18K white gold.',
-    longDescription: 'Symbolizing endless eternity, this delicate ring is completely wrapped in micro-pavé diamonds of exceptional clarity, cast in an ultra-slim 18K white gold band designed for stacking with engagement rings.',
-    image: 'https://i.pinimg.com/1200x/a6/a2/e4/a6a2e4feda3ad5598ff242ecca544005.jpg',
-    images: [
-      'https://i.pinimg.com/1200x/a6/a2/e4/a6a2e4feda3ad5598ff242ecca544005.jpg',
-      'https://i.pinimg.com/736x/a9/4b/0b/a94b0b0e422b77bf0eac4f090d0bdb13.jpg',
-      'https://i.pinimg.com/736x/06/f8/16/06f81626404ab052831670d1016cf5d9.jpg'
-    ],
-    specifications: {
-      metal: '18K green stone',
-      purity: '75.0% Pure Gold',
-      gemstone: 'Brilliant Diamonds (0.35 ctw)',
-      weight: '9.4 grams',
-      certification: 'SGL Certified'
-    }
-  },
-  {
-    id: 'ring-10',
-    name: 'Emerald stone plated ring ',
-    category: 'Rings',
-    price: 45000,
-    rating: 4.8,
-    reviewsCount: 14,
-    description: 'A continuous, sparkling ribbon of pavé-set diamonds set in beautiful 18K white gold.',
-    longDescription: 'Symbolizing endless eternity, this delicate ring is completely wrapped in micro-pavé diamonds of exceptional clarity, cast in an ultra-slim 18K white gold band designed for stacking with engagement rings.',
-    image: 'https://i.pinimg.com/1200x/8d/64/df/8d64dfb5ae7251f75433ac87a8a25390.jpg',
-    images: [
-      'https://i.pinimg.com/1200x/8d/64/df/8d64dfb5ae7251f75433ac87a8a25390.jpg',
-      'https://i.pinimg.com/736x/ab/ac/8f/abac8fcbd276dfe9a609ba6ab2ca79e6.jpg',
-      'https://i.pinimg.com/1200x/32/1f/23/321f233525b6ab366a3f4381b2861a9d.jpg',
-      'https://i.pinimg.com/736x/45/ce/09/45ce09e6244a9866a1ccd1aded3cc3c4.jpg'
-    ],
-    specifications: {
-      metal: '18K green stone',
-      purity: '75.0% Pure Gold',
-      gemstone: 'Brilliant Diamonds (0.35 ctw)',
-      weight: '9.4 grams',
-      certification: 'SGL Certified'
-    }
-  },
-
+  
   // --- NECKLACES (7 products) ---
   {
     id: 'necklace-01',
