@@ -37,31 +37,31 @@ useEffect(() => {
       name: 'Necklaces',
       label: 'Exquisite Necklaces',
       count: '7 Masterpieces',
-      image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=600&q=80',
+      image: 'https://i.pinimg.com/1200x/2f/88/c0/2f88c04b0a21dd27b796ca311f24b0a3.jpg',
     },
     {
       name: 'Rings',
       label: 'Solitaire Rings',
       count: '8 Masterpieces',
-      image: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=600&q=80',
+      image: 'https://i.pinimg.com/1200x/9f/54/5a/9f545a7f4fd07fb345fc561ae8f642c1.jpg',
     },
     {
       name: 'Earrings',
       label: 'Statement Earrings',
       count: '8 Masterpieces',
-      image: 'https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=600&q=80',
+      image: 'https://rubans.in/cdn/shop/files/rubans-silver-plated-pearls-cubic-zirconia-studded-oversized-premium-floral-stud-earrings-studs-earrings-1150858252.jpg?v=1755718877',
     },
     {
       name: 'Bangles',
       label: 'Traditional Bangles',
       count: '7 Masterpieces',
-      image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=600&q=80',
+      image: 'https://i.pinimg.com/736x/e4/95/3a/e4953afb3f9b90738fd1863d523640e2.jpg',
     },
     {
       name: 'Bracelets',
       label: 'Luxury Bracelets',
       count: '5 Masterpieces',
-      image: 'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=600&q=80',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmI7b5dGO6UB-zJ_KZ6AiAo3519S8OW_oysa82ZCyZ4rthJH9k4FXLNxk&s=10',
     },
   ];
 
