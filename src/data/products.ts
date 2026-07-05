@@ -197,6 +197,30 @@ export const PRODUCTS: Product[] = [
       certification: 'SGL Certified'
     }
   },
+  {
+    id: 'ring-09',
+    name: 'green stone ring 2 in 1',
+    category: 'Rings',
+    price: 45000,
+    rating: 4.8,
+    reviewsCount: 14,
+    description: 'A continuous, sparkling ribbon of pavé-set diamonds set in beautiful 18K white gold.',
+    longDescription: 'Symbolizing endless eternity, this delicate ring is completely wrapped in micro-pavé diamonds of exceptional clarity, cast in an ultra-slim 18K white gold band designed for stacking with engagement rings.',
+    image: 'https://i.pinimg.com/1200x/a6/a2/e4/a6a2e4feda3ad5598ff242ecca544005.jpg',
+    images: [
+      'https://i.pinimg.com/1200x/a6/a2/e4/a6a2e4feda3ad5598ff242ecca544005.jpg',
+      'https://i.pinimg.com/1200x/7a/26/68/7a2668a128d35f93abf5175e8d1b4104.jpg',
+      'https://i.pinimg.com/1200x/61/83/6a/61836ad07dadeb4c6124ebf183d2d00f.jpg'
+      
+    ],
+    specifications: {
+      metal: '18K White Gold',
+      purity: '75.0% Pure Gold',
+      gemstone: 'Brilliant Diamonds (0.35 ctw)',
+      weight: '2.4 grams',
+      certification: 'SGL Certified'
+    }
+  },
   
   // --- NECKLACES (7 products) ---
   {
