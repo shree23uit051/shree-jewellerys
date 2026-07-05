@@ -201,7 +201,7 @@ export const PRODUCTS: Product[] = [
     id: 'ring-09',
     name: 'Hexagon Emerald ring 2 in 1',
     category: 'Rings',
-    price: 45000,
+    price: 245000,
     rating: 4.8,
     reviewsCount: 14,
     description: 'A continuous, sparkling ribbon of pavé-set diamonds set in beautiful 18K white gold.',
