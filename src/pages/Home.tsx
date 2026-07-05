@@ -2,6 +2,7 @@ import React, { useState , useEffect } from 'react';
 import darshini1 from "../assets/images/darshini1.jpg";
 import shree2 from "../assets/images/shree2.jpg";
 import mk3 from "../assets/images/mk3.jpg";
+import shri from "../assets/images/shri.jpg";
 import { Link, useNavigate } from 'react-router-dom';
 import { ArrowRight, Star, Heart, Shield, Award, Sparkles, MessageSquare, Compass, Send } from 'lucide-react';
 import { PRODUCTS, REVIEWS } from '../data/products';
@@ -16,8 +17,10 @@ export const Home: React.FC = () => {
 const showcaseImages = [
   darshini1, // உன் import image
   shree2,
-  mk3
+  mk3,
+  shri
 ];
+
 
 const [currentIndex, setCurrentIndex] = useState(0);
   // Filter products for sections
