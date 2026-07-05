@@ -225,7 +225,7 @@ export const PRODUCTS: Product[] = [
   // --- NECKLACES (7 products) ---
   {
     id: 'necklace-01',
-    name: 'The Shree Queen Bridal Necklace',
+    name: 'Aura Diamond Collar Necklace',
     category: 'Necklaces',
     price: 495000,
     rating: 5.0,
@@ -251,17 +251,18 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'necklace-02',
-    name: 'Royal Aura Emerald Choker',
+    name: 'Emerald Drop Diamond Necklace',
     category: 'Necklaces',
     price: 380000,
     rating: 4.9,
     reviewsCount: 26,
     description: 'An exceptional high-jewelry choker featuring graduated cushion-cut Zambian emeralds beautifully ringed by diamond halos.',
     longDescription: 'Capturing the deep, serene essence of the finest Zambian mines, this Royal Aura Choker is a breathtaking masterpiece. The center features seven graduated, ethically sourced deep green cushion-cut emeralds totaling 12.4 carats, hung from an intricate vine of sparkling marquise-cut diamond leaves.',
-    image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/ec/5b/e5/ec5be57011639d3c9df00ea27b4fefe4.jpg',
     images: [
-      'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/ec/5b/e5/ec5be57011639d3c9df00ea27b4fefe4.jpg',
+      'https://i.pinimg.com/1200x/cd/96/0d/cd960daf3e8c61616d9aba3281ad1aaf.jpg',
+      'https://i.pinimg.com/736x/92/48/bc/9248bcb8e9b4cec255ea2f5dbf891209.jpg'
     ],
     isFeatured: true,
     isNewArrival: true,
@@ -275,17 +276,19 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'necklace-03',
-    name: 'Aura Diamond Collar Necklace',
+    name: 'The Shree Queen Bridal Necklace',
     category: 'Necklaces',
     price: 295000,
     rating: 4.8,
     reviewsCount: 14,
     description: 'A breathtaking collar necklace showcasing a seamless line of graduated round brilliant diamonds set in white gold.',
     longDescription: 'This sleek collar wraps the neck with absolute light. Handcrafted with graduated round brilliant-cut diamonds totaling 15 carats, each diamond is meticulously set to create an endless ribbon of fire and light.',
-    image: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/1200x/b3/4c/88/b34c8801210c87817c05415a3b603e01.jpg',
     images: [
-      'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/1200x/b3/4c/88/b34c8801210c87817c05415a3b603e01.jpg',
+      'https://i.pinimg.com/1200x/b7/38/71/b73871937548939dacf186ee567500dd.jpg',
+      'https://i.pinimg.com/1200x/83/6e/36/836e368603746ca4bfed32ddf546f377.jpg',
+      'https://i.pinimg.com/736x/43/5e/b9/435eb912a7bdae304c4c23d4431a8839.jpg'
     ],
     specifications: {
       metal: '18K White Gold',
@@ -304,10 +307,12 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 11,
     description: 'A traditional heavy wedding necklace with gorgeous strings of premium ruby beads, pearls, and gold filigree pendant.',
     longDescription: 'Crafted as a tribute to ancient Indian court jewelers, this multi-stranded necklace consists of hundreds of micro-faceted royal Burmese ruby beads and white pearls, gathered by an antique-finished pendant embedded with uncut diamonds.',
-    image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/1200x/1b/88/0d/1b880dffc4810b39938d2de7ddb2799d.jpg',
     images: [
-      'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/1200x/1b/88/0d/1b880dffc4810b39938d2de7ddb2799d.jpg',
+      'https://i.pinimg.com/1200x/15/7e/89/157e89e689a970df49d9d35d2f54dabb.jpg',
+      'https://i.pinimg.com/1200x/fe/fd/b3/fefdb3f5e8e498efdeda9b0d9c16275b.jpg',
+      'https://i.pinimg.com/1200x/7f/72/2d/7f722d95706deffe3aed1d0c2a2f5a1b.jpg'
     ],
     specifications: {
       metal: '22K Gold With Antique Finish',
@@ -319,16 +324,19 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'necklace-05',
-    name: 'The Classic Pearl String Necklace',
+    name: 'Premio Diamond Necklace',
     category: 'Necklaces',
     price: 75000,
     rating: 4.7,
     reviewsCount: 29,
     description: 'A single, perfectly matched string of premium cream-white South Sea pearls with an 18K yellow gold clasp.',
     longDescription: 'Understated elegance at its absolute best. This string showcases 38 perfectly round, radiant cream-white South Sea cultured pearls of 10-11mm size, individually knotted on premium silk thread and secured by a fluted 18K yellow gold ball clasp.',
-    image: 'https://images.unsplash.com/photo-1611085583191-a3b1a30a5a2a?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/47/6f/14/476f14e6e7e718c56073d0471325f9eb.jpg',
     images: [
-      'https://images.unsplash.com/photo-1611085583191-a3b1a30a5a2a?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/47/6f/14/476f14e6e7e718c56073d0471325f9eb.jpg',
+      'https://i.pinimg.com/736x/aa/6d/fb/aa6dfbca6cb6f2c9eb909cc9e6ad5e3f.jpg',
+      'https://i.pinimg.com/736x/36/17/aa/3617aa00cb9cb52ba35e29937b516a31.jpg',
+      'https://i.pinimg.com/736x/e3/a4/c1/e3a4c1df01ca49bd6f4e62f89152b1b9.jpg'
     ],
     isBestSeller: true,
     specifications: {
@@ -341,7 +349,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'necklace-06',
-    name: 'Modernist Chevron Diamond Neckpiece',
+    name: 'The Classic Pearl String Necklace',
     category: 'Necklaces',
     price: 195000,
     rating: 4.8,
