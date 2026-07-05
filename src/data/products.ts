@@ -1,7 +1,7 @@
 import { Product } from '../types';
 
 export const PRODUCTS: Product[] = [
-  // --- RINGS (8 products) ---
+  // --- RINGS (10 products) ---
   {
     id: 'ring-01',
     name: 'The Nizam Solitaire Diamond Ring',
@@ -36,12 +36,13 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 19,
     description: 'A striking cushion-cut Zambian emerald framed by a sparkling halo of brilliant-cut diamonds in 18K white gold.',
     longDescription: 'Capturing the deep, serene essence of premium Zambian mines, this masterpiece showcases a 1.8-carat cushion-cut emerald. The vivid green gem is encircled by a sparkling halo of round brilliant diamonds, set upon an 18K white gold band decorated with milgrain borders.',
-    image: 'https://i.pinimg.com/736x/f6/01/8c/f6018c47afc4f8f4424d1886fa9c90fe.jpg',
+    image: 'https://i.pinimg.com/736x/b3/d4/0f/b3d40f44727df99b8471aa7d9dd52fa7.jpg',
     images: [
-      'https://i.pinimg.com/736x/f6/01/8c/f6018c47afc4f8f4424d1886fa9c90fe.jpg',
-      'https://i.pinimg.com/736x/f9/32/78/f93278c5214a7287097c3326b44f63e7.jpg',
-      'https://i.pinimg.com/736x/c3/98/98/c39898d2f0be778f85a5d627b024853a.jpg',
-      'https://i.pinimg.com/736x/b3/d4/0f/b3d40f44727df99b8471aa7d9dd52fa7.jpg'
+      'https://i.pinimg.com/736x/b3/d4/0f/b3d40f44727df99b8471aa7d9dd52fa7.jpg',
+      'https://i.pinimg.com/1200x/5d/50/43/5d504378bc4fb05c7a50aec670324734.jpg',
+      'https://i.pinimg.com/736x/7f/a7/97/7fa7977ed4e0551b71fa224cc6136f28.jpg',
+      'https://i.pinimg.com/736x/8e/66/18/8e66186cc98fa06ab86a966c011457ae.jpg'
+      
     ],
     isFeatured: true,
     specifications: {
@@ -157,9 +158,12 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 8,
     description: 'An imposing signet ring showcasing a round Ceylon blue sapphire surrounded by carved gold celestial motifs.',
     longDescription: 'Hand-sculpted in heavy 18K gold, this magnificent signet ring houses a deep royal blue Ceylon sapphire of 1.5 carats, accented with delicate hand-engraved cosmic stars and crescent moon carvings.',
-    image: 'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/1200x/e0/be/26/e0be267229576d1e24a4360348740056.jpg',
     images: [
-      'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/1200x/e0/be/26/e0be267229576d1e24a4360348740056.jpg',
+      'https://i.pinimg.com/1200x/e2/1d/3a/e21d3a0600356cf31f3fa82b850945a1.jpg',
+      'https://i.pinimg.com/1200x/d5/7f/ed/d57fed97e2afe143f7c6422cc24b4b55.jpg',
+      'https://i.pinimg.com/736x/f1/db/fe/f1dbfed0f66fbd3cd39969534ac7f582.jpg'
     ],
     specifications: {
       metal: '18K Yellow Gold',
@@ -178,15 +182,65 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 14,
     description: 'A continuous, sparkling ribbon of pavé-set diamonds set in beautiful 18K white gold.',
     longDescription: 'Symbolizing endless eternity, this delicate ring is completely wrapped in micro-pavé diamonds of exceptional clarity, cast in an ultra-slim 18K white gold band designed for stacking with engagement rings.',
-    image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/1200x/1d/69/e4/1d69e4c4e0ed8321194d5c3ed44a6f34.jpg',
     images: [
-      'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/1200x/1d/69/e4/1d69e4c4e0ed8321194d5c3ed44a6f34.jpg',
+      'https://i.pinimg.com/736x/f6/01/8c/f6018c47afc4f8f4424d1886fa9c90fe.jpg',
+      'https://i.pinimg.com/736x/f9/32/78/f93278c5214a7287097c3326b44f63e7.jpg',
+      'https://i.pinimg.com/736x/c3/98/98/c39898d2f0be778f85a5d627b024853a.jpg'
     ],
     specifications: {
       metal: '18K White Gold',
       purity: '75.0% Pure Gold',
       gemstone: 'Brilliant Diamonds (0.35 ctw)',
       weight: '2.4 grams',
+      certification: 'SGL Certified'
+    }
+  },
+  {
+    id: 'ring-09',
+    name: 'Hexagon Emerald ring 2 in 1',
+    category: 'Rings',
+    price: 45000,
+    rating: 4.8,
+    reviewsCount: 14,
+    description: 'A continuous, sparkling ribbon of pavé-set diamonds set in beautiful 18K white gold.',
+    longDescription: 'Symbolizing endless eternity, this delicate ring is completely wrapped in micro-pavé diamonds of exceptional clarity, cast in an ultra-slim 18K white gold band designed for stacking with engagement rings.',
+    image: 'https://i.pinimg.com/1200x/a6/a2/e4/a6a2e4feda3ad5598ff242ecca544005.jpg',
+    images: [
+      'https://i.pinimg.com/1200x/a6/a2/e4/a6a2e4feda3ad5598ff242ecca544005.jpg',
+      'https://i.pinimg.com/736x/a9/4b/0b/a94b0b0e422b77bf0eac4f090d0bdb13.jpg',
+      'https://i.pinimg.com/736x/06/f8/16/06f81626404ab052831670d1016cf5d9.jpg'
+    ],
+    specifications: {
+      metal: '18K green stone',
+      purity: '75.0% Pure Gold',
+      gemstone: 'Brilliant Diamonds (0.35 ctw)',
+      weight: '9.4 grams',
+      certification: 'SGL Certified'
+    }
+  },
+  {
+    id: 'ring-10',
+    name: 'Emerald stone plated ring ',
+    category: 'Rings',
+    price: 45000,
+    rating: 4.8,
+    reviewsCount: 14,
+    description: 'A continuous, sparkling ribbon of pavé-set diamonds set in beautiful 18K white gold.',
+    longDescription: 'Symbolizing endless eternity, this delicate ring is completely wrapped in micro-pavé diamonds of exceptional clarity, cast in an ultra-slim 18K white gold band designed for stacking with engagement rings.',
+    image: 'https://i.pinimg.com/1200x/8d/64/df/8d64dfb5ae7251f75433ac87a8a25390.jpg',
+    images: [
+      'https://i.pinimg.com/1200x/8d/64/df/8d64dfb5ae7251f75433ac87a8a25390.jpg',
+      'https://i.pinimg.com/736x/ab/ac/8f/abac8fcbd276dfe9a609ba6ab2ca79e6.jpg',
+      'https://i.pinimg.com/1200x/32/1f/23/321f233525b6ab366a3f4381b2861a9d.jpg',
+      'https://i.pinimg.com/736x/45/ce/09/45ce09e6244a9866a1ccd1aded3cc3c4.jpg'
+    ],
+    specifications: {
+      metal: '18K green stone',
+      purity: '75.0% Pure Gold',
+      gemstone: 'Brilliant Diamonds (0.35 ctw)',
+      weight: '9.4 grams',
       certification: 'SGL Certified'
     }
   },
