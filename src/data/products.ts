@@ -11,11 +11,11 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 42,
     description: 'A legendary 3-carat round brilliant-cut solitaire diamond mounted in an exquisite platinum band with hand-set micro-pavé shoulders.',
     longDescription: 'Evoking the legendary splendor of royal Indian treasuries, the Nizam Solitaire Ring features a 3.0-carat colorless, flawless round brilliant diamond. Hand-mounted in an elevated six-prong platinum crown designed to maximize light refraction, the platinum band is further embellished with micro-pavé diamonds running along the shoulders.',
-    image: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/21/0b/7f/210b7f3eddf7a5a62ac0ced24db7ff68.jpg',
     images: [
-      'https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/21/0b/7f/210b7f3eddf7a5a62ac0ced24db7ff68.jpg',
+      'https://i.pinimg.com/1200x/d9/f9/ee/d9f9eeb294bac34448900330a5298cff.jpg',
+      'https://i.pinimg.com/736x/aa/ad/7f/aaad7f87e152ba6294771ecea93a3895.jpg'
     ],
     isFeatured: true,
     isBestSeller: true,
@@ -29,17 +29,19 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'ring-02',
-    name: 'Royal Emerald Halo Ring',
+    name: 'Whispered Light Diamond Ring',
     category: 'Rings',
     price: 185000,
     rating: 4.8,
     reviewsCount: 19,
     description: 'A striking cushion-cut Zambian emerald framed by a sparkling halo of brilliant-cut diamonds in 18K white gold.',
     longDescription: 'Capturing the deep, serene essence of premium Zambian mines, this masterpiece showcases a 1.8-carat cushion-cut emerald. The vivid green gem is encircled by a sparkling halo of round brilliant diamonds, set upon an 18K white gold band decorated with milgrain borders.',
-    image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/f6/01/8c/f6018c47afc4f8f4424d1886fa9c90fe.jpg',
     images: [
-      'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/f6/01/8c/f6018c47afc4f8f4424d1886fa9c90fe.jpg',
+      'https://i.pinimg.com/736x/f9/32/78/f93278c5214a7287097c3326b44f63e7.jpg',
+      'https://i.pinimg.com/736x/c3/98/98/c39898d2f0be778f85a5d627b024853a.jpg',
+      'https://i.pinimg.com/736x/b3/d4/0f/b3d40f44727df99b8471aa7d9dd52fa7.jpg'
     ],
     isFeatured: true,
     specifications: {
@@ -59,17 +61,18 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 31,
     description: 'An elegant half-eternity band with five matched brilliant-cut diamonds held in classic claw settings.',
     longDescription: 'A classic symbol of love and longevity, the Jubilee Diamond Band showcases five perfectly matched, clean round brilliant diamonds totaling 0.75 carats. Each stone is cradled in an open prong basket on an 18K white gold band, ensuring magnificent sparkle from every perspective.',
-    image: 'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/88/e9/02/88e902e630456f70c51ff3578586b773.jpg',
     images: [
-      'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/88/e9/02/88e902e630456f70c51ff3578586b773.jpg',
+      'https://i.pinimg.com/736x/d3/21/a2/d321a2f3e18ec7434256a0521c3c19b6.jpg',
+      'https://i.pinimg.com/1200x/81/5a/2a/815a2ae8a9351a86d4bbccc74ab100cf.jpg'
     ],
     isBestSeller: true,
     specifications: {
-      metal: '18K White Gold',
+      metal: '18K Rose Gold',
       purity: '75.0% Pure Gold',
       gemstone: 'Round Diamonds (0.75 ctw, G color, VS1)',
-      weight: '4.2 grams',
+      weight: '8.2 grams',
       certification: 'SGL Certified'
     }
   },
@@ -82,10 +85,12 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 15,
     description: 'A deep crimson Burmese ruby accented with pear-shaped shoulder diamonds, cast in solid 18K yellow gold.',
     longDescription: 'Designed for a regal presence, the Ruby Empress Ring showcases a luscious 2.2-carat oval Burmese ruby. The centerpiece is highlighted by two elegant pear-shaped side diamonds and secured within an 18-karat yellow gold bezel, embodying rich antique style.',
-    image: 'https://images.unsplash.com/photo-1589674781759-c21c37956a44?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/d3/53/a9/d353a9a175005e62277bc62ed2054f93.jpg',
     images: [
-      'https://images.unsplash.com/photo-1589674781759-c21c37956a44?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/d3/53/a9/d353a9a175005e62277bc62ed2054f93.jpg',
+      'https://i.pinimg.com/1200x/23/92/5f/23925f0f7118ca1ca2e3c9f596306307.jpg',
+      'https://i.pinimg.com/736x/7c/b3/1a/7cb31a6d04d35b5ef221cf40f03f12c6.jpg',
+      'https://i.pinimg.com/1200x/a7/32/85/a73285525994d3c893924f989cd1400b.jpg'
     ],
     isNewArrival: true,
     specifications: {
@@ -105,10 +110,11 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 22,
     description: 'A magnificent heritage cocktail ring featuring uncut Polki diamonds and beautiful red enamel work in 22K gold.',
     longDescription: 'Celebrate imperial history with the Maharani Polki Ring. Crafted using traditional Jadau methods, it highlights flat-cut uncut diamonds set on an ornate 22K yellow gold bezel with intricate red and green meenakari detailing on the reverse.',
-    image: 'https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/4b/75/12/4b7512bcc90d73e96812bafb4e1fb866.jpg',
     images: [
-      'https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/4b/75/12/4b7512bcc90d73e96812bafb4e1fb866.jpg',
+      'https://i.pinimg.com/736x/0e/cd/e7/0ecde73fb0f996e72c05ecdb808572ab.jpg',
+      'https://i.pinimg.com/1200x/dc/07/20/dc07208db4fdc5f9ad190794da81157f.jpg'
     ],
     specifications: {
       metal: '22K Yellow Gold',
@@ -127,9 +133,11 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 12,
     description: 'A modern, interlocking twisted band made of brilliant 18K rose gold and micro-pavé diamonds.',
     longDescription: 'A delicate expression of modern romanticism, this band features two interlocking ribbons of polished 18K rose gold and shimmering pavé diamonds. Perfect for stacking or wearing alone as a minimal everyday statement.',
-    image: 'https://images.unsplash.com/photo-1598560917505-59a3ad559071?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/1200x/c5/a1/c5/c5a1c53085f07236f18abc14a9b1cbb2.jpg',
     images: [
-      'https://images.unsplash.com/photo-1598560917505-59a3ad559071?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/1200x/c5/a1/c5/c5a1c53085f07236f18abc14a9b1cbb2.jpg',
+      'https://i.pinimg.com/736x/19/58/71/1958715288b4de3b1836319335008743.jpg',
+      'https://i.pinimg.com/736x/89/f9/09/89f909533b07c3d54f594803eef885c9.jpg'
     ],
     isNewArrival: true,
     specifications: {
