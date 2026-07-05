@@ -232,11 +232,12 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 37,
     description: 'A magnificent royal bridal choker crafted with brilliant-cut diamonds, rich Burmese rubies, and premium South Sea pearls.',
     longDescription: 'Embodying pure regal splendor, The Shree Queen Bridal Necklace is designed for the modern bride who treasures heritage. Handcrafted over 450 hours by our master artisans, this set features premium-grade diamonds nestled in a 22-karat yellow gold frame, accented with deep crimson Burmese rubies and finished with dangling white South Sea pearls.',
-    image: 'https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/1200x/b3/4c/88/b34c8801210c87817c05415a3b603e01.jpg',
     images: [
-      'https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/1200x/b3/4c/88/b34c8801210c87817c05415a3b603e01.jpg',
+      'https://i.pinimg.com/1200x/b7/38/71/b73871937548939dacf186ee567500dd.jpg',
+      'https://i.pinimg.com/736x/43/5e/b9/435eb912a7bdae304c4c23d4431a8839.jpg',
+      'https://i.pinimg.com/1200x/83/6e/36/836e368603746ca4bfed32ddf546f377.jpg'
     ],
     isFeatured: true,
     isBestSeller: true,
