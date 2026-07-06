@@ -700,10 +700,14 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 31,
     description: 'An ornate traditional 22K gold bangle crafted with heavy filigree detailing and secure screw hinge.',
     longDescription: 'The Imperial Gold Kada is a magnificent tribute to royal Indian filigree art. Meticulously shaped by hereditary goldsmiths, this thick cuff features interlocking geometric patterns, floral carvings, and a screw-lock hinge. Made of solid 22K gold, the outer rim is textured with micro-beading.',
-    image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/d9/b2/fe/d9b2fe53c6b8bd6fe91cb1ee60939fb7.jpg',
     images: [
-      'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/d9/b2/fe/d9b2fe53c6b8bd6fe91cb1ee60939fb7.jpg',
+      'https://i.pinimg.com/736x/a5/99/11/a5991144dfaa15181566c39b2e1d62b1.jpg',
+      'https://i.pinimg.com/736x/5e/ba/a9/5ebaa924824d981062446ed071fa3463.jpg',
+      'https://i.pinimg.com/1200x/5c/4f/4f/5c4f4f3e4811ab7b030817ab5045fb2a.jpg',
+      'https://i.pinimg.com/736x/51/d5/8c/51d58c609dd5fcea348ffafa4f32dbfc.jpg',
+      'https://i.pinimg.com/1200x/dd/e1/09/dde109069bc87b051a6f3116b7fcd81b.jpg'
     ],
     isFeatured: true,
     isBestSeller: true,
@@ -717,17 +721,20 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'bangles-02',
-    name: 'Royal Polki Jadau Bangles Set',
+    name: 'Royal Bangles Set',
     category: 'Bangles',
     price: 350000,
     rating: 5.0,
     reviewsCount: 18,
     description: 'A masterwork bridal set of heavy 22K gold bangles inlaid with pristine uncut Polki diamonds and rubies.',
     longDescription: 'Exuding pure royal magnificence, this bridal set of two broad kadas is meticulously crafted with flat-cut Polki diamonds nestled in high-purity gold foil settings, highlighted by bright red enamel inlays.',
-    image: 'https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/1200x/af/20/b0/af20b036ae15476f4396134148d92d54.jpg',
     images: [
-      'https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/1200x/af/20/b0/af20b036ae15476f4396134148d92d54.jpg',
+      'https://i.pinimg.com/736x/4c/e5/40/4ce5406a6ec8a17e8e192760ee6056f9.jpg',
+      'https://i.pinimg.com/1200x/85/97/1f/85971ffe3a18e90f47e7af4d01e5b732.jpg',
+      'https://i.pinimg.com/736x/c3/48/cd/c348cd19e2a3c27d4c1997e6f065941f.jpg',
+      'https://i.pinimg.com/1200x/9e/52/82/9e528217783775d589b8861d55d70ec3.jpg'
     ],
     isBestSeller: true,
     specifications: {
@@ -740,16 +747,21 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'bangles-03',
-    name: 'Traditional Meenakari Kada Set',
+    name: 'Bride collection',
     category: 'Bangles',
     price: 140000,
     rating: 4.8,
     reviewsCount: 14,
     description: 'Artistic bangles hand-enameled with magnificent peacock patterns and encrusted with kundan stones.',
     longDescription: 'Originating from Jaipur ateliers, these kadas display gorgeous hand-painted peacock colors. Lined with flat-cut kundan stones and closed securely with standard push-pin screw locks.',
-    image: 'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/f5/b9/25/f5b9252df5297e43eb28c3ca0e5f91ac.jpg',
     images: [
-      'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/f5/b9/25/f5b9252df5297e43eb28c3ca0e5f91ac.jpg',
+      'https://i.pinimg.com/736x/d6/74/4c/d6744ce50c863cedbc34afa4cea226c5.jpg',
+      'https://i.pinimg.com/1200x/6d/1d/f1/6d1df10e20080bb32fcdfa2b80e19ae8.jpg',
+      'https://i.pinimg.com/1200x/3e/f6/f9/3ef6f91a87bca058f74b686ce2272b98.jpg',
+      'https://i.pinimg.com/736x/e5/ab/e4/e5abe41a10d5c06a41e99c820c148b3a.jpg',
+      'https://i.pinimg.com/736x/74/d7/40/74d740f769ca0278ba579414bde45ea4.jpg'
     ],
     specifications: {
       metal: '22K Yellow Gold',
@@ -761,16 +773,20 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'bangles-04',
-    name: 'Classic 22K Filigree Bangles (Pair)',
+    name: 'Classic Single Bangle',
     category: 'Bangles',
     price: 95000,
     rating: 4.7,
     reviewsCount: 22,
     description: 'A pair of classic solid yellow gold bangles decorated with beautiful hand-drawn wire filigree meshes.',
     longDescription: 'These comfortable everyday luxury bangles feature an intricate mesh of hand-shaped gold wires, flanked by polished borders that slide on smoothly.',
-    image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/1200x/17/b8/52/17b852ad480028da07daf9ea12d741b1.jpg',
     images: [
-      'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/1200x/17/b8/52/17b852ad480028da07daf9ea12d741b1.jpg',
+      'https://i.pinimg.com/1200x/e5/df/f1/e5dff1c5467408d60cecb4f6a06d0dfe.jpg',
+      'https://i.pinimg.com/736x/3e/33/d9/3e33d9a09b8dafd38f8b3fb98d532462.jpg',
+      'https://i.pinimg.com/736x/a0/ce/41/a0ce41c39c90da7c6caad3b2a8652bf3.jpg',
+      'https://i.pinimg.com/736x/20/5e/f5/205ef5baeda688ed57020ff34f008819.jpg'
     ],
     isFeatured: true,
     specifications: {
@@ -790,9 +806,11 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 11,
     description: 'A sleek, stunning 18K white gold kada paved with lines of brilliant round and baguette diamonds.',
     longDescription: 'For a high-fashion, premium aesthetic, this kada houses alternating lines of baguette and round brilliant-cut diamonds, totaling 4 carats. Constructed with a concealed lock mechanism.',
-    image: 'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/a5/54/ab/a554abfdbc2b5c42d37268023c424a6a.jpg',
     images: [
-      'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/a5/54/ab/a554abfdbc2b5c42d37268023c424a6a.jpg',
+      'https://i.pinimg.com/736x/53/eb/b8/53ebb86c4818f302fcd19a9ef752ae8c.jpg',
+      'https://i.pinimg.com/736x/08/19/32/0819329a899d1661c5f0c54cc1b53a18.jpg'
     ],
     isNewArrival: true,
     specifications: {
@@ -812,9 +830,14 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 15,
     description: 'A set of three delicate stacking bangles in 18K rose gold, paved with micro-diamonds.',
     longDescription: 'The ultimate in quiet luxury stacking. This triplet of ultra-thin, flexible rose gold bangles is individually encrusted with micro-pavé diamonds, glistening in any lighting condition.',
-    image: 'https://images.unsplash.com/photo-1611085583191-a3b1a30a5a2a?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/1200x/34/32/22/3432224854a13f47cd1f8a76bbc0b4dc.jpg',
     images: [
-      'https://images.unsplash.com/photo-1611085583191-a3b1a30a5a2a?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/1200x/34/32/22/3432224854a13f47cd1f8a76bbc0b4dc.jpg',
+      'https://i.pinimg.com/1200x/48/d9/0a/48d90aa8c2444fecc1140e660ce212c4.jpg',
+      'https://i.pinimg.com/736x/d8/49/a3/d849a3d5cceeee9d010dc877522a30e3.jpg',
+      'https://i.pinimg.com/736x/f4/ba/f6/f4baf6ae60d5af22113e29f4b2f9c6f4.jpg'
+
+
     ],
     specifications: {
       metal: '18K Rose Gold',
@@ -833,9 +856,12 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 13,
     description: 'Heavy traditional bangles carved with mythological symbols and deep copper-toned antique polish.',
     longDescription: 'Masterfully carved using ancient Southern Nakshi repoussé methods, this thick pair of bangles displays gorgeous temple floral carvings, creating a grand antique gold appearance.',
-    image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/b3/c6/ea/b3c6eac55a638458242cb1e1b2171e36.jpg',
     images: [
-      'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/b3/c6/ea/b3c6eac55a638458242cb1e1b2171e36.jpg',
+      'https://i.pinimg.com/736x/8e/3b/e3/8e3be36743cbee3ca3e28d3ad653ee87.jpg',
+      'https://i.pinimg.com/736x/fd/c8/9d/fdc89dacad1acf4348e5cb5009e36a51.jpg',
+      'https://i.pinimg.com/736x/fd/b4/0d/fdb40d0a4b851385ce03865b53c47309.jpg'
     ],
     isNewArrival: true,
     specifications: {
