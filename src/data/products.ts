@@ -616,7 +616,7 @@ export const PRODUCTS: Product[] = [
     id: 'earrings-07',
     name: 'Minimalist Diamond Ear Cuffs',
     category: 'Earrings',
-    price: 32000,
+    price: 550000
     rating: 4.5,
     reviewsCount: 10,
     description: 'A contemporary pair of non-pierced sliding ear cuffs with brilliant-cut micro-diamonds in yellow gold.',
