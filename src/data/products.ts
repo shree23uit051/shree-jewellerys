@@ -876,17 +876,19 @@ export const PRODUCTS: Product[] = [
   // --- BRACELETS (5 products) ---
   {
     id: 'bracelet-01',
-    name: 'Shimmering Tennis Diamond Bracelet',
+    name: 'Minimalist Rose Gold Diamond Cuff',
     category: 'Bracelets',
     price: 399000,
     rating: 5.0,
     reviewsCount: 37,
     description: 'A classic, seamless line of perfectly matched round diamonds, totaling 8.5 carats, set in individual 18K white gold baskets.',
     longDescription: 'Understated luxury in its most fluid form. Our Tennis Bracelet represents premium uniformity, composed of 46 hand-selected round brilliant diamonds of matching G-color and VS2-clarity. Each stone is cradled in an ultra-slim 18K white gold basket, creating a continuous sparkling beam that wraps elegantly around the wrist.',
-    image: 'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/bf/79/c3/bf79c3ef02d8461a52f4d4e3f97aa483.jpg',
     images: [
-      'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/bf/79/c3/bf79c3ef02d8461a52f4d4e3f97aa483.jpg',
+      'https://i.pinimg.com/736x/c2/c0/c2/c2c0c200dd495cc5338bf10315c90c01.jpg',
+      'https://i.pinimg.com/1200x/46/6c/cf/466ccf207841aef0831c63fa8288fbf6.jpg',
+      'https://i.pinimg.com/1200x/35/96/a7/3596a790eac52eb7c8ff1118a5b03123.jpg'
     ],
     isFeatured: true,
     isBestSeller: true,
@@ -900,16 +902,19 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'bracelet-02',
-    name: 'Emerald & Diamond Link Bracelet',
+    name: 'Shimmering Tennis Diamond Bracelet',
     category: 'Bracelets',
     price: 260000,
     rating: 4.8,
     reviewsCount: 15,
     description: 'An alternating link bracelet showcasing rich oval Zambian emeralds and brilliant diamond halos in white gold.',
     longDescription: 'This majestic bracelet consists of ten vibrant green oval-cut Zambian emeralds, each framed by diamond halos and linked with sparkling brilliant-cut bar elements.',
-    image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/1200x/73/0c/e4/730ce4a1478d5d004a71e1fc7cdd42c0.jpg',
     images: [
-      'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/1200x/73/0c/e4/730ce4a1478d5d004a71e1fc7cdd42c0.jpg',
+      'https://i.pinimg.com/1200x/ce/20/74/ce2074efd1ba43ec8148e4a83857d576.jpg',
+      'https://i.pinimg.com/1200x/8b/1d/c1/8b1dc196a761e151b04e3e769e05d898.jpg',
+      'https://i.pinimg.com/1200x/79/8c/59/798c59edf758d00b9eb4e4b8adf677ed.jpg'
     ],
     specifications: {
       metal: '18K White Gold',
@@ -921,16 +926,20 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'bracelet-03',
-    name: 'Minimalist Rose Gold Diamond Cuff',
+    name: 'Emerald & Diamond Link Bracelet',
     category: 'Bracelets',
     price: 85000,
     rating: 4.7,
     reviewsCount: 19,
     description: 'A sleek, open-ended bypass cuff in 18K rose gold, capped with triangular clusters of diamonds.',
     longDescription: 'An elegant contemporary addition, this slim rose gold cuff features extreme flexibility for easy slip-on wear, ending in sparkling geometric trillion-cut diamond clusters.',
-    image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/1200x/16/26/bf/1626bfa715c697510731820859d8171e.jpg',
     images: [
-      'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/1200x/16/26/bf/1626bfa715c697510731820859d8171e.jpg',
+      'https://i.pinimg.com/736x/44/86/c6/4486c61d844dafbd3981aaa62fc01906.jpg',
+      'https://i.pinimg.com/1200x/18/39/ae/1839ae9076b104a534967bbd1bc0de84.jpg',
+      'https://i.pinimg.com/736x/55/88/c7/5588c7e309a5ecf2d3d603940b0d9bd2.jpg',
+      'https://i.pinimg.com/736x/6b/75/8f/6b758f19889869e055226bd9f0765fba.jpg'
     ],
     isBestSeller: true,
     specifications: {
@@ -943,16 +952,21 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'bracelet-04',
-    name: 'Traditional Kundan Charm Bracelet',
+    name: 'Double layer Diamond Bracelet',
     category: 'Bracelets',
     price: 68000,
     rating: 4.6,
     reviewsCount: 12,
     description: 'A heavy 22K gold chain bracelet decorated with dangling floral Kundan charms and small pearls.',
     longDescription: 'Add heritage flair to your wrist. This chunky link bracelet suspends five beautiful circular flower motifs crafted in gold-wrapped kundan glass settings.',
-    image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/1200x/d4/4b/63/d44b633c132b63bec8b19e60fdd94813.jpg',
     images: [
-      'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/1200x/d4/4b/63/d44b633c132b63bec8b19e60fdd94813.jpg',
+      'https://i.pinimg.com/1200x/c6/29/6c/c6296c1ba9e455c59cc5fddd9ad75ef6.jpg',
+      'https://i.pinimg.com/1200x/c0/c5/6a/c0c56abdf61560a552d1642323701426.jpg',
+      'https://i.pinimg.com/1200x/eb/e9/95/ebe99555896e4e2824bf38c1b292f0da.jpg',
+      'https://i.pinimg.com/1200x/57/34/60/57346027b0f203be9b65aa4f685d8038.jpg',
+      'https://i.pinimg.com/1200x/26/2b/86/262b863554f0fd553bfd54451eec9a5c.jpg'
     ],
     specifications: {
       metal: '22K Yellow Gold',
@@ -971,9 +985,13 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 23,
     description: 'A slender yellow gold wire bracelet accented with five luminous pearls and sparkling diamond dividers.',
     longDescription: 'Perfect for elegant daily wear, this ultra-light gold band positions five grade-A cultured freshwater pearls separated by brilliant-cut diamond bands.',
-    image: 'https://images.unsplash.com/photo-1611085583191-a3b1a30a5a2a?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/1200x/fa/99/ae/fa99ae6626de2bc8eee3b46556d44dd0.jpg',
     images: [
-      'https://images.unsplash.com/photo-1611085583191-a3b1a30a5a2a?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/1200x/fa/99/ae/fa99ae6626de2bc8eee3b46556d44dd0.jpg',
+      'https://i.pinimg.com/736x/fd/79/07/fd7907ac78282d4f54ee6d5ef586882e.jpg',
+      'https://i.pinimg.com/736x/2a/16/96/2a16967e342c5088b56e5fd59c6072cc.jpg',
+      'https://i.pinimg.com/736x/12/a0/9c/12a09cf645a5ce356fbbef9d91e692eb.jpg'
+      
     ],
     isNewArrival: true,
     specifications: {
