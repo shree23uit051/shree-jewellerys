@@ -664,6 +664,31 @@ export const PRODUCTS: Product[] = [
       certification: 'SGL Certified'
     }
   },
+  {
+    id: 'earrings-09',
+    name: 'Emerald Drop Diamond Earrings',
+    category: 'Earrings',
+    price: 55000,
+    rating: 4.8,
+    reviewsCount: 19,
+    description: 'Elegant post earrings with sparkling diamond clusters suspending large, flawless white South Sea pearls.',
+    longDescription: 'For the ultimate wedding guest or evening gala ensemble, these elegant drops contain flawless, high-luster South Sea pearls dangling beneath cluster arrangements of marquise-cut white diamonds.',
+    image: 'https://i.pinimg.com/1200x/db/48/a9/db48a910b25642f9f7796f45311b4092.jpg',
+    images: [
+      'https://i.pinimg.com/1200x/db/48/a9/db48a910b25642f9f7796f45311b4092.jpg',
+      'https://i.pinimg.com/1200x/1f/9b/ab/1f9bab7cc61f975e603f934f2e2643af.jpg',
+      'https://i.pinimg.com/1200x/9a/78/61/9a7861958c429ee7be48536f5bfc404e.jpg',
+      'https://i.pinimg.com/1200x/20/8c/32/208c32d0e7e7d4b6eb488e8ac9762ba5.jpg',
+      'https://i.pinimg.com/1200x/41/08/2a/41082a918a4382cfe6cb1bf51b24be42.jpg'
+    ],
+    specifications: {
+      metal: '18K White Gold',
+      purity: '75.0% Pure Gold',
+      gemstone: 'South Sea Pearls & Diamonds (0.45 ctw)',
+      weight: '7.2 grams',
+      certification: 'SGL Certified'
+    }
+  },
 
   // --- BANGLES (7 products) ---
   {
