@@ -1,5 +1,5 @@
 import React, { useState , useEffect } from 'react';
-import darshini1 from "../assets/images/darshini1.jpg";
+import shri from "../assets/images/shri.jpg";
 import shree2 from "../assets/images/shree2.jpg";
 import mk3 from "../assets/images/mk3.jpg";
 import { Link, useNavigate } from 'react-router-dom';
@@ -14,7 +14,7 @@ export const Home: React.FC = () => {
   const [newsletterSubscribed, setNewsletterSubscribed] = useState(false);
 // 👉 showcase images list
 const showcaseImages = [
-  darshini1, // உன் import image
+  shri, // உன் import image
   shree2,
   mk3
 ];
