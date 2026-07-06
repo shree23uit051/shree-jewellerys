@@ -349,16 +349,19 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'necklace-06',
-    name: 'The Classic Pearl String Necklace',
+    name: 'New lanuch Diamond Necklace',
     category: 'Necklaces',
     price: 195000,
     rating: 4.8,
     reviewsCount: 17,
     description: 'A sleek, contemporary V-shaped necklace adorned with baguettes and round brilliant diamonds.',
     longDescription: 'Capturing clean lines and geometric luxury, this chevron collar presents structured rows of sparkling baguette-cut diamonds outlined by highly-polished white gold, dropping down to a sharp central V-point.',
-    image: 'https://images.unsplash.com/photo-1620969183483-e90a4465853e?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/58/ab/82/58ab82ecfe4c38e19c988280784c2acf.jpg',
     images: [
-      'https://images.unsplash.com/photo-1620969183483-e90a4465853e?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/1200x/3c/be/ef/3cbeefc07bcbfea5a935b6e7d3559c37.jpg',
+      'https://i.pinimg.com/736x/17/36/06/173606e4f42e817ae1448eb58478d2f4.jpg',
+      'https://i.pinimg.com/736x/7f/d5/03/7fd50322c939f517c48e9b6c8b925c1f.jpg',
+      'https://i.pinimg.com/1200x/dd/54/e0/dd54e0fe2b4d6fadb477a5c9010c7cda.jpg'
     ],
     isNewArrival: true,
     specifications: {
@@ -371,16 +374,20 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'necklace-07',
-    name: 'Gulabi Meenakari Collar Set',
+    name: '',
     category: 'Necklaces',
     price: 165000,
     rating: 4.9,
     reviewsCount: 9,
     description: 'An extraordinary traditional collar hand-enameled using the rare Varanasi pink meenakari art, set with seed pearls.',
     longDescription: 'A vibrant heritage piece that stands out. Featuring pure 22K gold plates carefully hand-enameled with rare pink floral motifs, set with flat kundan stones and finished with lines of tiny seed pearls.',
-    image: 'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/1200x/c5/34/cc/c534cceadd576cf773891c76d3143799.jpg',
     images: [
-      'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/1200x/c5/34/cc/c534cceadd576cf773891c76d3143799.jpg',
+      'https://i.pinimg.com/736x/40/5e/c7/405ec7cfb58d5ebdf80c54a3608cbe2a.jpg',
+      'https://i.pinimg.com/1200x/d2/7d/f9/d27df9ad0abe38319765b6b7f26809f2.jpg',
+      'https://i.pinimg.com/1200x/45/49/95/454995b528fa3a299e89f612c61ef9fb.jpg',
+      'https://i.pinimg.com/736x/39/ae/9a/39ae9a8a3d0ad485e4a4848c84c1f18d.jpg'
     ],
     specifications: {
       metal: '22K Yellow Gold',
@@ -390,6 +397,7 @@ export const PRODUCTS: Product[] = [
       certification: 'BIS Hallmarked'
     }
   },
+  
 
   // --- EARRINGS (8 products) ---
   {
