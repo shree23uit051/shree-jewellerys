@@ -425,7 +425,7 @@ export const PRODUCTS: Product[] = [
   
 {
     id: 'necklace-09',
-    name: '',
+    name: 'The Classic Pearl Diamond Necklace',
     category: 'Necklaces',
     price: 165000,
     rating: 4.9,
