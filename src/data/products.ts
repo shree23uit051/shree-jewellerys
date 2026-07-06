@@ -454,17 +454,20 @@ export const PRODUCTS: Product[] = [
   // --- EARRINGS (8 products) ---
   {
     id: 'earrings-01',
-    name: 'Majestic Peacock Jhumka Earrings',
+    name: 'Majestic Diamond Jhumka Earrings',
     category: 'Earrings',
     price: 125000,
     rating: 4.9,
     reviewsCount: 28,
     description: 'Spellbinding royal chandelier earrings featuring intricate peacock carvings, fine kundan stones, and cascading fresh-water pearl drops.',
     longDescription: 'These Peacock Jhumkas capture the grace of royal Indian courts. Hand-etched peacock figures with vibrant blue-green enamel (Meenakari) work sit atop double-tiered bell-shaped domes, embellished with flat-cut kundan stones and fresh-water seed pearls.',
-    image: 'https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/34/76/99/347699c6f6d732896a7c7877b3c566fd.jpg',
     images: [
-      'https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/34/76/99/347699c6f6d732896a7c7877b3c566fd.jpg',
+      'https://i.pinimg.com/1200x/46/ff/8c/46ff8c86c3caf12568cfcd966146fbc7.jpg',
+      'https://i.pinimg.com/736x/3c/cd/6c/3ccd6c7e49c4b47a6a8fdba3d3ef76b7.jpg',
+      'https://i.pinimg.com/736x/7d/13/32/7d13326269ceb0ad63ffd4c0ed5594c1.jpg',
+      'https://i.pinimg.com/736x/cc/05/dd/cc05ddde69dd6db527670ebdab9637a6.jpg'
     ],
     isFeatured: true,
     isBestSeller: true,
@@ -485,10 +488,14 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 51,
     description: 'Prestige 1-carat total weight round brilliant diamonds set in highly-secure screw-back platinum settings.',
     longDescription: 'These studs carry a matched pair of brilliant diamonds totaling 1.0 carat. Selected for their outstanding fire and scintillation, they are mounted in a minimal four-prong platinum basket that positions them flush against the earlobe.',
-    image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/e0/f9/92/e0f992a526a5c6dc97d23420bddf86bd.jpg',
     images: [
-      'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/e0/f9/92/e0f992a526a5c6dc97d23420bddf86bd.jpg',
+      'https://i.pinimg.com/1200x/2c/32/b4/2c32b4aa54bf91d3ff1ce9038045511e.jpg',
+      'https://i.pinimg.com/736x/60/4c/9f/604c9fd0ee9ad542e3293942352c042e.jpg',
+      'https://i.pinimg.com/1200x/70/da/b0/70dab04c3ad4ddf204ff2b0aa6829514.jpg',
+      'https://i.pinimg.com/736x/4b/d6/2b/4bd62be06b5401003dd7e4623cac0cdf.jpg',
+      'https://i.pinimg.com/1200x/6a/f1/08/6af1082272881687241082a4e652780b.jpg'
     ],
     isBestSeller: true,
     specifications: {
@@ -508,10 +515,14 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 16,
     description: 'Grand articulated chandelier earrings featuring pear-shaped Zambian emeralds suspended within brilliant diamond frameworks.',
     longDescription: 'Exuding aristocratic poise, these drop earrings hold two magnificent pear-shaped Zambian emeralds totaling 4.5 carats. The emeralds sway inside a delicate 18K white gold frame set with marquise and brilliant-cut diamonds.',
-    image: 'https://images.unsplash.com/photo-1629224316810-9d8805b95e76?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/a1/ae/5c/a1ae5c8e0ebf428104dc52332c646987.jpg',
     images: [
-      'https://images.unsplash.com/photo-1629224316810-9d8805b95e76?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/a1/ae/5c/a1ae5c8e0ebf428104dc52332c646987.jpg',
+      'https://i.pinimg.com/1200x/85/42/67/85426729501ed4c42db1f582b023295a.jpg',
+      'https://i.pinimg.com/736x/38/a1/5c/38a15c1d14d27bab2ed0895a36da8597.jpg',
+      'https://i.pinimg.com/1200x/bf/d4/dd/bfd4dd0a6a9e434293797dde6b93692a.jpg',
+      'https://i.pinimg.com/1200x/01/ca/3a/01ca3a5224f85d70a6966e1c43dd3bdc.jpg',
+      'https://i.pinimg.com/736x/25/07/5d/25075de47192b1851e6de5d998892c5b.jpg'
     ],
     isFeatured: true,
     specifications: {
@@ -531,9 +542,15 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 22,
     description: 'Classic inside-out diamond hoop earrings crafted with high-polish 18K white gold.',
     longDescription: 'These hoops are meticulously engineered to show sparkling diamonds both on the front-facing outer rim and the rear-facing inner rim, offering premium double-sided fire. Built with a push-button safety click lock.',
-    image: 'https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/ab/86/1a/ab861a68327a22dc50efb30f08e6a1e9.jpg',
     images: [
-      'https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/ab/86/1a/ab861a68327a22dc50efb30f08e6a1e9.jpg',
+      'https://i.pinimg.com/736x/34/60/c6/3460c6898edef2dc85c3898b24c03e96.jpg',
+      'https://i.pinimg.com/1200x/d3/d9/85/d3d9853063ac5b33136da63b87566743.jpg',
+      'https://i.pinimg.com/1200x/ca/39/da/ca39daaff5ecec3a40a2eaa4dfb8d657.jpg',
+      'https://i.pinimg.com/736x/09/a5/30/09a5309292c6faf65298cff8050d4819.jpg',
+      'https://i.pinimg.com/736x/dc/0b/90/dc0b9075d9fe55b3770dd34128046c1f.jpg'
+      
     ],
     isNewArrival: true,
     specifications: {
@@ -553,9 +570,14 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 15,
     description: 'Slender, adjustable gold pull-through earrings ending in bright, droplets of oval Burmese rubies.',
     longDescription: 'A delicate design that merges traditional mechanics with modern luxury. A long needle-thin chain slides comfortably through the earlobe, suspending vibrant, oval-cut Burmese rubies that bounce elegantly with movement.',
-    image: 'https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/fa/4a/2b/fa4a2bb130486c347444343bf372e135.jpg',
     images: [
-      'https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/fa/4a/2b/fa4a2bb130486c347444343bf372e135.jpg',
+      'https://i.pinimg.com/736x/3e/1c/97/3e1c97cb53a4aa3d3babb999b02aad29.jpg',
+      'https://i.pinimg.com/1200x/22/36/df/2236df54e0970a3e4492d562e9314ed9.jpg',
+      'https://i.pinimg.com/1200x/86/ae/82/86ae82bfcf8388c58ec07de93f5a7c5c.jpg',
+      'https://i.pinimg.com/736x/49/4b/91/494b91812727ed6bd5664f2f531b1854.jpg',
+      'https://i.pinimg.com/736x/37/23/75/372375d09a95728b6713d71031e7775f.jpg'
     ],
     specifications: {
       metal: '18K Yellow Gold',
@@ -574,9 +596,13 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 13,
     description: 'Ornate antique gold bell earrings showcasing traditional Nakshi hand-engravings and kundan stone clusters.',
     longDescription: 'Representing temple art of Southern India, these heavy jhumkas feature intricate gold stampings of floral garlands, embellished with bright Kundan settings and finished with small gold beads cascading from the bell rims.',
-    image: 'https://images.unsplash.com/photo-1588444839799-beca81d13a56?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/25/c7/19/25c719f5bd7e0fe2399208597afbfe51.jpg',
     images: [
-      'https://images.unsplash.com/photo-1588444839799-beca81d13a56?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/25/c7/19/25c719f5bd7e0fe2399208597afbfe51.jpg',
+      'https://i.pinimg.com/1200x/f6/d4/b0/f6d4b0495d5eb5d4377705991d10ec10.jpg',
+      'https://i.pinimg.com/736x/1a/71/dc/1a71dc9b128588a76b48405c0778819a.jpg',
+      'https://i.pinimg.com/736x/bc/06/94/bc06943e67e0323f0337171de33aa847.jpg',
+      'https://i.pinimg.com/736x/f8/33/ab/f833abcd8782da8acdc23c32765817b4.jpg'
     ],
     specifications: {
       metal: '22K Yellow Gold (Antique Polish)',
@@ -595,9 +621,13 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 10,
     description: 'A contemporary pair of non-pierced sliding ear cuffs with brilliant-cut micro-diamonds in yellow gold.',
     longDescription: 'Add structured brilliance without needing multiple piercings. These minimal cuffs wrap comfortably around the upper cartilage, sparkling with pavé-set diamonds.',
-    image: 'https://images.unsplash.com/photo-1598560917709-a7614bab2293?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/9a/55/09/9a5509a646c7b30dbf5faa00c308ede3.jpg',
     images: [
-      'https://images.unsplash.com/photo-1598560917709-a7614bab2293?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/9a/55/09/9a5509a646c7b30dbf5faa00c308ede3.jpg',
+      'https://i.pinimg.com/1200x/bd/3f/4e/bd3f4e0dd0476f680ee4349c00f295a3.jpg',
+      'https://i.pinimg.com/736x/90/47/c0/9047c04031b6da7ab2ccf543112a4652.jpg',
+      'https://i.pinimg.com/1200x/2d/27/a4/2d27a4def8eb65f40ebbc1b8620b8686.jpg',
+      'https://i.pinimg.com/1200x/34/55/0f/34550ffa98f0abed0bd9fc197aba9f84.jpg'
     ],
     isNewArrival: true,
     specifications: {
@@ -617,9 +647,14 @@ export const PRODUCTS: Product[] = [
     reviewsCount: 19,
     description: 'Elegant post earrings with sparkling diamond clusters suspending large, flawless white South Sea pearls.',
     longDescription: 'For the ultimate wedding guest or evening gala ensemble, these elegant drops contain flawless, high-luster South Sea pearls dangling beneath cluster arrangements of marquise-cut white diamonds.',
-    image: 'https://images.unsplash.com/photo-1615655096345-61a54750068d?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/1200x/d9/f3/4d/d9f34d8eb206adb8c1cbc670541f596a.jpg',
     images: [
-      'https://images.unsplash.com/photo-1615655096345-61a54750068d?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/1200x/d9/f3/4d/d9f34d8eb206adb8c1cbc670541f596a.jpg',
+      'https://i.pinimg.com/736x/ea/00/4a/ea004aa0a29ff6ae7fe3e7ae6ca647ef.jpg',
+      'https://i.pinimg.com/736x/da/e9/e2/dae9e2b124aa342dbb18e6fcce3615e1.jpg',
+      'https://i.pinimg.com/736x/8a/25/aa/8a25aa9f0724855ab27465d2ec511dd7.jpg',
+      'https://i.pinimg.com/1200x/00/28/03/0028039bc500fe74b847952aae69eae2.jpg',
+      'https://i.pinimg.com/736x/c4/a8/2d/c4a82dd01ae05cd8c6d840d29dd176dc.jpg'
     ],
     specifications: {
       metal: '18K White Gold',
