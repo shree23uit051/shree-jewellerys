@@ -374,7 +374,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'necklace-07',
-    name: '',
+    name: 'Diamond Doller',
     category: 'Necklaces',
     price: 165000,
     rating: 4.9,
