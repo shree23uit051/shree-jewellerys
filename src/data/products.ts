@@ -358,7 +358,7 @@ export const PRODUCTS: Product[] = [
     longDescription: 'Capturing clean lines and geometric luxury, this chevron collar presents structured rows of sparkling baguette-cut diamonds outlined by highly-polished white gold, dropping down to a sharp central V-point.',
     image: 'https://i.pinimg.com/736x/58/ab/82/58ab82ecfe4c38e19c988280784c2acf.jpg',
     images: [
-      'https://i.pinimg.com/1200x/3c/be/ef/3cbeefc07bcbfea5a935b6e7d3559c37.jpg',
+      'https://i.pinimg.com/736x/58/ab/82/58ab82ecfe4c38e19c988280784c2acf.jpg',
       'https://i.pinimg.com/736x/17/36/06/173606e4f42e817ae1448eb58478d2f4.jpg',
       'https://i.pinimg.com/736x/7f/d5/03/7fd50322c939f517c48e9b6c8b925c1f.jpg',
       'https://i.pinimg.com/1200x/dd/54/e0/dd54e0fe2b4d6fadb477a5c9010c7cda.jpg'
