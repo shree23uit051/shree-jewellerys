@@ -1006,17 +1006,18 @@ export const PRODUCTS: Product[] = [
   // --- PENDANTS (5 products) ---
   {
     id: 'pendant-01',
-    name: 'The Kohinoor Solitaire Pendant',
+    name: 'Aklet for Bride ',
     category: 'Pendants',
     price: 320000,
     rating: 4.9,
     reviewsCount: 33,
     description: 'A spectacular 2-carat pear-shaped brilliant solitaire pendant hung on a thin, solid platinum chain.',
     longDescription: 'Capturing ultimate sparkle, this pendant suspends a beautiful 2.0-carat pear-cut GIA-graded diamond in an open three-prong crown, hanging from a micro-faceted platinum wire chain.',
-    image: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/1200x/4c/91/5d/4c915d8901b4e75dac1446b6532e00bf.jpg',
     images: [
-      'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1000&q=80',
-      'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/1200x/4c/91/5d/4c915d8901b4e75dac1446b6532e00bf.jpg',
+      'https://i.pinimg.com/736x/e0/1b/70/e01b701beedd6c56390360ce53af2416.jpg',
+      'https://i.pinimg.com/1200x/12/02/a9/1202a92a4a9671dfd722672786bdd4df.jpg'
     ],
     isFeatured: true,
     isBestSeller: true,
@@ -1030,16 +1031,20 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'pendant-02',
-    name: 'Royal Emerald Halo Pendant',
+    name: 'Diamond Emerald Aklet ',
     category: 'Pendants',
     price: 115000,
     rating: 4.8,
     reviewsCount: 16,
     description: 'An elegant round emerald stone framed by dual halos of brilliant-cut diamonds in white gold.',
     longDescription: 'This delicate circular drop pendant showcases a 1.2-carat deep green emerald, highlighted beautifully by a double ring of shimmering micro-diamonds on an 18K white gold adjustable trace chain.',
-    image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/98/3f/cd/983fcda035c8eadeed3ab35da967fa15.jpg',
     images: [
-      'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/98/3f/cd/983fcda035c8eadeed3ab35da967fa15.jpg',
+      'https://i.pinimg.com/1200x/b6/bc/c5/b6bcc584d286734bfba308e6597c00fd.jpg',
+      'https://i.pinimg.com/736x/5b/ac/49/5bac4920e4c217229000e78a0b3b4d6d.jpg',
+      'https://i.pinimg.com/736x/62/41/eb/6241ebd346ec67289ee7152b61fb8f30.jpg',
+      'https://i.pinimg.com/736x/c8/9d/ac/c89dac18d43d09e3dcd40999135e9528.jpg'
     ],
     isBestSeller: true,
     specifications: {
@@ -1052,16 +1057,20 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'pendant-03',
-    name: 'Burmese Ruby Heart Pendant',
+    name: 'Daily Wear Aklet Diamond',
     category: 'Pendants',
     price: 75000,
     rating: 4.7,
     reviewsCount: 21,
     description: 'A romantic heart-shaped Burmese ruby pendant bordered with micro-pavé diamonds in rose gold.',
     longDescription: 'Symbolizing deep affection, this pendant showcases a heart-faceted Burmese ruby of 0.85 carats, nestled within a classic brilliant diamond frame in high-polished rose gold.',
-    image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/19/f9/b2/19f9b2b2ed57da8dd390a1a2479f6263.jpg',
     images: [
-      'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/19/f9/b2/19f9b2b2ed57da8dd390a1a2479f6263.jpg',
+      'https://i.pinimg.com/736x/c3/43/e5/c343e5c857cf728cd7a1bb309ec64285.jpg',
+      'https://i.pinimg.com/736x/58/3b/bc/583bbc31fb64f511481910ce9e00ecbb.jpg',
+      'https://i.pinimg.com/736x/ce/1e/3b/ce1e3b0c07713c67adeb62367e5c24a7.jpg',
+      'https://i.pinimg.com/736x/cb/e1/0a/cbe10a75c21d58ec28556351534b1681.jpg'
     ],
     specifications: {
       metal: '18K Rose Gold',
@@ -1073,16 +1082,19 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'pendant-04',
-    name: 'Heritage Ganesha Gold Pendant',
+    name: 'Double Layer Diamond Aklet',
     category: 'Pendants',
     price: 35000,
     rating: 4.9,
     reviewsCount: 29,
     description: 'An iconic solid 22K gold coin pendant with an engraved sculpture of Lord Ganesha, detailed with rubies.',
     longDescription: 'An auspicious heirloom carrying divine blessings, this heavy solid gold medallion displays Lord Ganesha surrounded by hand-set cabochon ruby accents and delicate floral Nakshi engraving.',
-    image: 'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/1200x/fa/75/17/fa7517d620ab135bd6d93635a800f68e.jpg',
     images: [
-      'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/1200x/fa/75/17/fa7517d620ab135bd6d93635a800f68e.jpg',
+      'https://i.pinimg.com/736x/4b/b3/38/4bb33867fbb34ea95afb1d4e41198a71.jpg',
+      'https://i.pinimg.com/736x/46/78/37/46783748817a33f9f311d226d1ff3c22.jpg',
+      'https://i.pinimg.com/736x/84/0d/21/840d216fcb9fbb7c9f3df1113f478176.jpg'
     ],
     specifications: {
       metal: '22K Yellow Gold',
@@ -1094,16 +1106,19 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'pendant-05',
-    name: 'Minimal Starlet Diamond Pendant',
+    name: 'Delicate Pearl aklet diamond',
     category: 'Pendants',
     price: 18000,
     rating: 4.6,
     reviewsCount: 14,
     description: 'A small starburst-shaped pendant with brilliant diamond pavé on an 18K yellow gold chain.',
     longDescription: 'Designed as a minimal daily touch of luxury, this charming starburst glows with micro-pavé diamonds, hanging gracefully from a fine, high-polish yellow gold chain.',
-    image: 'https://images.unsplash.com/photo-1620969183483-e90a4465853e?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://i.pinimg.com/736x/70/4c/67/704c6758cf665c054fa1b4734a94f409.jpg',
     images: [
-      'https://images.unsplash.com/photo-1620969183483-e90a4465853e?auto=format&fit=crop&w=1000&q=80'
+      'https://i.pinimg.com/736x/70/4c/67/704c6758cf665c054fa1b4734a94f409.jpg',
+      'https://i.pinimg.com/736x/f8/e4/bb/f8e4bbe01bdf89d9974b4c3d51325207.jpg',
+      'https://i.pinimg.com/736x/5b/b4/2e/5bb42e67b0c4247c19131699e66ffa04.jpg',
+      'https://i.pinimg.com/736x/26/4f/cd/264fcdd6da0b0cf40e76c747a32ab5ce.jpg'
     ],
     isNewArrival: true,
     specifications: {
