@@ -397,6 +397,58 @@ export const PRODUCTS: Product[] = [
       certification: 'BIS Hallmarked'
     }
   },
+  {
+    id: 'necklace-08',
+    name: 'Double layer Diamond Necklace',
+    category: 'Necklaces',
+    price: 165000,
+    rating: 4.9,
+    reviewsCount: 9,
+    description: 'An extraordinary traditional collar hand-enameled using the rare Varanasi pink meenakari art, set with seed pearls.',
+    longDescription: 'A vibrant heritage piece that stands out. Featuring pure 22K gold plates carefully hand-enameled with rare pink floral motifs, set with flat kundan stones and finished with lines of tiny seed pearls.',
+    image: 'https://i.pinimg.com/736x/c5/f4/57/c5f4572f27e4e82f6c2b7b63b52dd1ac.jpg',
+    images: [
+      'https://i.pinimg.com/736x/c5/f4/57/c5f4572f27e4e82f6c2b7b63b52dd1ac.jpg',
+      'https://i.pinimg.com/1200x/4f/c8/6d/4fc86dfa3b80ef9685bfdbf897d97324.jpg',
+      'https://i.pinimg.com/1200x/f1/0d/7a/f10d7a52ba187c239c704896fc49e28b.jpg',
+      'https://i.pinimg.com/736x/ae/c5/67/aec56738d283bec2f084fed9cc995f37.jpg',
+      'https://i.pinimg.com/736x/74/00/f2/7400f29d38dbb823523c57de5fc9f112.jpg'
+    ],
+    specifications: {
+      metal: '22K Yellow Gold',
+      purity: '91.6% Pure Gold',
+      gemstone: 'Kundan & Seed Pearls with Hand-Enameling',
+      weight: '55.3 grams',
+      certification: 'BIS Hallmarked'
+    }
+  },
+  
+{
+    id: 'necklace-09',
+    name: '',
+    category: 'Necklaces',
+    price: 165000,
+    rating: 4.9,
+    reviewsCount: 9,
+    description: 'An extraordinary traditional collar hand-enameled using the rare Varanasi pink meenakari art, set with seed pearls.',
+    longDescription: 'A vibrant heritage piece that stands out. Featuring pure 22K gold plates carefully hand-enameled with rare pink floral motifs, set with flat kundan stones and finished with lines of tiny seed pearls.',
+    image: 'https://i.pinimg.com/1200x/67/2b/25/672b25225ec65f2c66c609d0dbbd4342.jpg',
+    images: [
+      'https://i.pinimg.com/1200x/67/2b/25/672b25225ec65f2c66c609d0dbbd4342.jpg',
+      'https://i.pinimg.com/1200x/43/d4/8d/43d48de378fc1bbb5f48d81d4cc3280a.jpg',
+      'https://i.pinimg.com/736x/c6/d3/17/c6d317c0eb1d3b621b6ef6faa317ce55.jpg',
+      'https://i.pinimg.com/736x/98/02/67/9802678145901895c135bb8d32552a94.jpg',
+      'https://i.pinimg.com/736x/e5/9e/cb/e59ecb99a8f2e00f39bc557c78bc59d8.jpg'
+      
+    ],
+    specifications: {
+      metal: '22K Yellow Gold',
+      purity: '91.6% Pure Gold',
+      gemstone: 'Kundan & Seed Pearls with Hand-Enameling',
+      weight: '55.3 grams',
+      certification: 'BIS Hallmarked'
+    }
+  },
   
 
   // --- EARRINGS (8 products) ---
