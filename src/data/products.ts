@@ -668,7 +668,7 @@ export const PRODUCTS: Product[] = [
     id: 'earrings-09',
     name: 'Emerald Drop Diamond Earrings',
     category: 'Earrings',
-    price: 55000,
+    price: 100000,
     rating: 4.8,
     reviewsCount: 19,
     description: 'Elegant post earrings with sparkling diamond clusters suspending large, flawless white South Sea pearls.',
