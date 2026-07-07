@@ -110,7 +110,7 @@ export const Contact: React.FC = () => {
                 </div>
               </div>
               <a
-                href="https://wa.me/919999999999?text=Hello%20Shree%20Jewellery%2C%20I%20would%20like%20to%20consult%20on%20a%20fine%20jewelry%20design."
+                href="https://wa.me/916379371995?text=Hello%20Shree%20Jewellery%2C%20I%20would%20like%20to%20consult%20on%20a%20fine%20jewelry%20design."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full text-center py-2.5 bg-[#128C7E] hover:bg-[#1f9c8d] text-white font-bold text-xs uppercase tracking-widest rounded-md transition-colors"
