@@ -59,7 +59,7 @@ export const About: React.FC = () => {
           {/* Luxury illustration/photo */}
           <div className="lg:col-span-6 aspect-[4/3] rounded-lg overflow-hidden border border-[#D4AF37]/20 relative shadow-2xl bg-black">
             <img
-              src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1000&q=80"
+              src="https://i.pinimg.com/736x/f3/8a/09/f38a090684d1022de854b36a0a4d0c55.jpg"
               alt="Crafting fine jewelry"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
