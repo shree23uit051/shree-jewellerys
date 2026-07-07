@@ -485,10 +485,10 @@ useEffect(() => {
               Request Private Consultation
             </Link>
             <a
-              href="https://wa.me/919999999999?text=Hello%20Shree%20Jewellery%2C%20I%20am%20interested%20in%20arranging%20a%20bridal%20concierge%20private%20session."
+              href="https://wa.me/916379371995?text=Hello%20Shree%20Jewellery%2C%20I%20am%20interested%20in%20arranging%20a%20bridal%20concierge%20private%20session."
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-3.5 border border-white/20 hover:border-[#D4AF37] text-white hover:text-[#D4AF37] font-semibold text-xs tracking-[0.2em] uppercase rounded-sm transition-all duration-300 bg-black/60"
+              className="px-8 py-3.5 border border-white/20 hover:border-[#D4AF37] text-white hover:text-[#D4AF37] font-semibold text-xs tracking-[0.2em] uppercase rounded-sm transition-all duration-300 bg-green/60"
             >
               WhatsApp Concierge
             </a>
